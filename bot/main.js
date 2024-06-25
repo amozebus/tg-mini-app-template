@@ -8,7 +8,7 @@ const bot = new Telegraf(process.env.TELEGRAM_BOT_TOKEN)
 
 const sc_url = "https://github.com/amozebus/tg_mini_app_template"
 
-const api = 'http://' + process.env.API_URL
+const api = 'http://' + process.env.API_DOMAIN
 
 bot.start(async (ctx) => {
     const endpoint = '/'
