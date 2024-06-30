@@ -6,7 +6,7 @@ import ky from 'ky'
 
 const bot = new Telegraf(process.env.TELEGRAM_BOT_TOKEN)
 
-const sc_url = "https://github.com/amozebus/tg_mini_app_template"
+const sc_url = "https://github.com/amozebus/tg-mini-app-template"
 
 const api = 'http://' + process.env.API_DOMAIN
 
